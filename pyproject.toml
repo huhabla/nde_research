@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nde-research"
+version = "0.1.0"
+description = "NDE Research Analysis Tool"
+authors = ["Sören Gebbert <soerengebbert@holistech.de>"]
+readme = "README.md"
+packages = [{include = "nde_research", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+anthropic = "^0.3.0"
+pydantic = "^1.10.0"
+tqdm = "^4.65.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+html-to-md = "scripts.html_to_md:main"
+nde-analyzer = "scripts.nde_analyzer:main"
