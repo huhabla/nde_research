@@ -5,6 +5,11 @@ import logging
 from nde_research.models import NdeReport
 from nde_research.prompts import SYSTEM_PROMPT, USER_PROMPT
 
+__author__ = "Sören Gebbert"
+__copyright__ = "Copyright 2024, Sören Gebbert"
+__maintainer__ = "Soeren Gebbert"
+__email__ = "soerengebbert@holistech.de"
+
 logger = logging.getLogger(__name__)
 
 

@@ -8,6 +8,11 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from nde_research.analyzer import process_nde_report, get_txt_files_to_process
 
+__author__ = "Sören Gebbert"
+__copyright__ = "Copyright 2024, Sören Gebbert"
+__maintainer__ = "Soeren Gebbert"
+__email__ = "soerengebbert@holistech.de"
+
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)

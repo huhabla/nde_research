@@ -1,6 +1,11 @@
 from pydantic import BaseModel, Field
 from typing import List, Dict, Optional, Union
 
+__author__ = "Sören Gebbert"
+__copyright__ = "Copyright 2024, Sören Gebbert"
+__maintainer__ = "Soeren Gebbert"
+__email__ = "soerengebbert@holistech.de"
+
 
 class NdeReport(BaseModel):
     summary: str = Field(default="", description="A short single line summary of the NDE report, that contains all important events of the NDE. ")

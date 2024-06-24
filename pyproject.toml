@@ -20,5 +20,6 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-html-to-md = "scripts.html_to_md:main"
+html-to-md = "scripts.html_to_txt:main"
 nde-analyzer = "scripts.nde_analyzer:main"
+create_nde_database = "scripts.create_nde_database.main"

@@ -4,6 +4,11 @@ import argparse
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+__author__ = "Sören Gebbert"
+__copyright__ = "Copyright 2024, Sören Gebbert"
+__maintainer__ = "Soeren Gebbert"
+__email__ = "soerengebbert@holistech.de"
+
 
 def html_to_txt(html_path, css_selector, relevance_hint, check_css):
     with open(html_path, 'r', encoding='utf-8') as file:

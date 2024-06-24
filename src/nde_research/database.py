@@ -1,6 +1,11 @@
 import sqlite3
 import logging
 
+__author__ = "Sören Gebbert"
+__copyright__ = "Copyright 2024, Sören Gebbert"
+__maintainer__ = "Soeren Gebbert"
+__email__ = "soerengebbert@holistech.de"
+
 logger = logging.getLogger(__name__)
 
 

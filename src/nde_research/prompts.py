@@ -1,3 +1,10 @@
+
+__author__ = "Sören Gebbert"
+__copyright__ = "Copyright 2024, Sören Gebbert"
+__maintainer__ = "Soeren Gebbert"
+__email__ = "soerengebbert@holistech.de"
+
+
 SYSTEM_PROMPT = """
 You are a highly skilled Near Death Experience (NDE) researcher with vast knowledge of NDE reports. You will analyse 
 new reports and put them intelligently in a Markdown text with an embedded JSON structure for further research.
