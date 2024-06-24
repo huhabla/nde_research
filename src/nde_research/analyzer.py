@@ -2,8 +2,8 @@ import anthropic
 import os
 import json
 import logging
-from nde_research.models import NdeJesusChristReport
-from nde_research.jc_prompts import SYSTEM_PROMPT, USER_PROMPT
+from nde_research.models import NdeReport
+from nde_research.prompts import SYSTEM_PROMPT, USER_PROMPT
 
 logger = logging.getLogger(__name__)
 
@@ -20,7 +20,7 @@ def process_nde_report(file_path: str, client: anthropic.Anthropic, output_dir: 
     response_output_path = os.path.join(output_dir, response_output_file)
 
     # Prepare the prompts
-    user_prompt = USER_PROMPT.format(nde_report=nde_report, base_model=NdeJesusChristReport.schema_json(indent=2))
+    user_prompt = USER_PROMPT.format(nde_report=nde_report, base_model=NdeReport.schema_json(indent=2))
     prompt = f"{SYSTEM_PROMPT}\n{user_prompt}"
 
     # Make the API call
@@ -46,7 +46,7 @@ def process_nde_report(file_path: str, client: anthropic.Anthropic, output_dir: 
 
     # Parse and validate JSON using Pydantic
     try:
-        nde_report_obj = NdeJesusChristReport.parse_raw(json_str)
+        nde_report_obj = NdeReport.parse_raw(json_str)
     except Exception as e:
         logger.error(f"Error parsing JSON for {file_path}. Write raw answer into {json_output_path}")
         with open(json_output_path, 'w', encoding='utf-8') as f:

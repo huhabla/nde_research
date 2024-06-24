@@ -6,7 +6,7 @@ import os
 import signal
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from nde_research.jc_analyzer import process_nde_report, get_txt_files_to_process
+from nde_research.analyzer import process_nde_report, get_txt_files_to_process
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

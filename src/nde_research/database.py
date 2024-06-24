@@ -30,6 +30,8 @@ def create_table(conn):
                       experience_type TEXT,
                       past_life_memories BOOLEAN,
                       life_review BOOLEAN,
+                      higher_knowledge BOOLEAN,
+                      future_events BOOLEAN,
                       jesus_christ BOOLEAN,
                       buddha BOOLEAN,
                       mohammed BOOLEAN,
@@ -46,9 +48,9 @@ def insert_data(conn, file_name, url, nde_analysis, nde_report, json_data):
     """Insert a new row into the nde_reports table"""
     sql = '''INSERT INTO nde_reports
              (file_name, url, nde_analysis, nde_report, summary, assessment, state_of_consciousness, 
-             experience_type, past_life_memories, life_review, jesus_christ, buddha, mohammed, 
-             profound_experience,  return_to_body, religion, gender, date)
-             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+             experience_type, past_life_memories, life_review, higher_knowledge, future_events, 
+             jesus_christ, buddha, mohammed,  profound_experience,  return_to_body, religion, gender, date)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
     try:
         c = conn.cursor()
         c.execute(sql, (file_name,
@@ -61,6 +63,8 @@ def insert_data(conn, file_name, url, nde_analysis, nde_report, json_data):
                         json_data['experience_type'],
                         json_data['past_life_memories'],
                         json_data['life_review'],
+                        json_data['higher_knowledge'],
+                        json_data['future_events'],
                         json_data['jesus_christ'],
                         json_data['buddha'],
                         json_data['mohammed'],

@@ -2,13 +2,15 @@ from pydantic import BaseModel, Field
 from typing import List, Dict, Optional, Union
 
 
-class NdeJesusChristReport(BaseModel):
+class NdeReport(BaseModel):
     summary: str = Field(default="", description="A short single line summary of the NDE report, that contains all important events of the NDE. ")
     assessment: str = Field(default="", description="The assessment of the NDE experience as a single line LLM pointing out all important steps of the NDE.")
     state_of_consciousness: str = Field(default="unknown", description="The state of consciousness the the experiencer experienced while the NDE. This can be normal, higher, lower or unknown")
     experience_type: str = Field(default="unknown", description="The type of experience the NDE was: positive, negative, neutral, unknown")
     past_life_memories: bool = Field(default=False, description="Based on your reasoning set true if past life memories are evidently present in this NDE")
     life_review: bool = Field(default=False, description="Based on your reasoning set true if a life review was evidently present in this NDE")
+    higher_knowledge: bool = Field(default=False, description="Based on your reasoning set true if higher knowledge was received by the NDE experiencer")
+    future_events: bool = Field(default=False, description="Based on your reasoning set true if future world changing events are mentioned in the NDE")
     jesus_christ: bool = Field(default=False, description="Based on your reasoning set true if the presence of Jesus Christ is evident in the NDE")
     buddha: bool = Field(default=False, description="Based on your reasoning set true if the presence of Buddha is evident in the NDE")
     mohammed: bool = Field(default=False, description="Based on your reasoning set true if the presence of prophet Mohammed is evident in the NDE")

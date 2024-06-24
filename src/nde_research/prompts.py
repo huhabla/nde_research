@@ -5,10 +5,9 @@ new reports and put them intelligently in a Markdown text with an embedded JSON 
 """
 
 USER_PROMPT = """
-You are tasked with extracting specific information from a near-death experience (NDE) report. The pay special attention
-to information about Jesus Christ and past life memories if they are present.
-The report may include Question/Answer pairs after the report that the experiencer answered. 
-Include these answer carefully in your information extraction. Your goal is to analyze the report carefully.
+Your task is to fully read and understand the provided near-death experience (NDE) report and carefully extract 
+specific information. The report may include question after the NDE report that the experiencer directly answered. 
+Include these answers carefully in your information extraction.
  
 Here is the NDE report you will be analyzing:
 
@@ -21,11 +20,12 @@ Follow these instructions to extract and format the information:
 1. Read the entire NDE report carefully, including any question/answer sections if present.
 
 - Markdown format: Write your response in Markdown format, start with the title "NDE Analysis"
-- Summary: Provide a detailed summary of all important events in the NDE.
+
+- Summary: Provide a detailed and well written summary of all important events in the NDE.
   
 - Assessment: Provide your analysis of the NDE, highlighting important aspects. Mention out all important steps 
-  of the NDE. The assessment must include potential past life memories and encounter with 
-  Jesus Christ, Buddha or Mohammed if present.
+  of the NDE. The assessment must include potential past life memories, life reviews, higher knowledge 
+  and encounter with Jesus Christ, Buddha, Mohammed or other entities if present.
 
 - Past life memories reasoning: Explain your reasoning mindfully and step by step why this NDE has evidence of past 
   life memories or why it has not. Past life memories or reincarnation must be explicitely mentioned or  discussed 
@@ -36,6 +36,18 @@ Follow these instructions to extract and format the information:
   has happened in this NDE report. This reasoning is the base for your decision 
   to set the field life_review to true or false in the JSON output.
   
+- Higher knowledge reasoning: Explain your reasoning mindfully and step by step if higher
+  knowledge was received by the NDE experiencer. 
+  If higher knowledge was received, create a curated bullet point list of the knowledge that was received.
+  This reasoning is the base for your decision to set the field higher_knowledge to true or false in the JSON output.
+
+- Future event reasoning: Explain your reasoning mindfully and step by step if future world changing events
+  are mentioned or discussed in the NDE. If future world changing events were mentioned, then create
+  a curated bullet point list of all future events that were mentioned. Future events of personal changes of the
+  experiencer should only be included in the list, if they give hints about world changing 
+  events like wars, catastrophes, new consciousness, peace on earth and so on.
+  This reasoning is the base for your decision to set the field future_events to true or false in the JSON output.
+
 - Jesus Christ reasoning: Explain your reasoning mindfully and step by step why this NDE has evidence of presence 
   of Jesus Christ (Jesus) or why it has not. The presence of Jesus Christ is not evident if the experiencer is 
   just guessing that he has met Jesus Christ. This reasoning is the base for your decision to set the field 
@@ -64,7 +76,7 @@ the following Pydantic BaseModel:
 {base_model}
 ```
 
-3. For each field in the NdeJesusChristReport model:
+3. For each field in the NdeReport model:
    a. Extract relevant information from the report, your summary, assessment and reasoning.
    b. Ensure the extracted information matches the field's description and type.
    c. If information is uncertain or missing, use appropriate default values or indicate uncertainty.
@@ -76,6 +88,8 @@ the following Pydantic BaseModel:
    - assessment: Write your assessment  as valid JSON string, without newlines
    - past_life_memories: Based on your reasoning set true if past life memories are evidently present in this NDE
    - life_review: Based on your reasoning set true if a life review was evidently present in this NDE
+   - higher_knowledge: Based on your reasoning set true if higher knowledge was received by the NDE experiencer
+   - future_events: Based on your reasoning set true if future world changing events are mentioned in the NDE
    - jesus_christ: Based on your reasoning set true if the presence of Jesus Christ is evident in the NDE
    - buddha: Based on your reasoning set true if the presence of Buddha is evident in the NDE
    - mohammed: Based on your reasoning set true if the presence of prophet Mohammed is evident in the NDE

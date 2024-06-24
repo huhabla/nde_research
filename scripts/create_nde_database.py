@@ -3,7 +3,7 @@ import json
 import argparse
 import logging
 from tqdm import tqdm
-from nde_research.jc_database import create_connection, create_table, insert_data
+from nde_research.database import create_connection, create_table, insert_data
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -37,15 +37,15 @@ def process_files(input_file, db_name):
             continue
 
         # Read NDE report
-        with open(txt_path, 'rb') as f:
+        with open(txt_path, 'r', encoding="utf-8") as f:
             nde_report = f.read()
 
         # Read NDE analysis
-        with open(analysis_path, 'rb') as f:
+        with open(analysis_path, 'r', encoding="utf-8") as f:
             nde_analysis = f.read()
 
         # Read JSON data
-        with open(json_path, 'r') as f:
+        with open(json_path, 'r', encoding="utf-8") as f:
             json_data = json.load(f)
 
         # Insert into database
