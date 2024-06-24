@@ -1,10 +1,9 @@
 import os
 import json
-import gzip
 import argparse
 import logging
 from tqdm import tqdm
-from nde_research.database import create_connection, create_table, insert_data
+from nde_research.jc_database import create_connection, create_table, insert_data
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -22,24 +21,35 @@ def process_files(input_file, db_name):
 
     input_dir = os.path.dirname(os.path.abspath(input_file))
 
-    for md_file in tqdm(md_files, desc="Processing files"):
-        md_path = os.path.join(input_dir, md_file)
-        json_path = os.path.splitext(md_path)[0] + '.json'
+    for txt_file in tqdm(md_files, desc="Processing files"):
+        txt_path = os.path.join(input_dir, txt_file)
+        basename_path = os.path.splitext(txt_path)[0]
+        json_path = basename_path + '.json'
+        analysis_path = basename_path + '_analysis.md'
+        url = f"https://www.nderf.org/Experiences/{txt_file.replace('.txt', '')}.html"
 
         if not os.path.exists(json_path):
-            logger.warning(f"JSON file not found for {md_file}. Skipping.")
+            logger.warning(f"JSON file not found for {txt_file}. Skipping.")
             continue
 
-        # Read and compress MD content
-        with open(md_path, 'rb') as f:
-            compressed_content = gzip.compress(f.read())
+        if not os.path.exists(txt_path):
+            logger.warning(f"Markdown file not found for {txt_file}. Skipping.")
+            continue
+
+        # Read NDE report
+        with open(txt_path, 'rb') as f:
+            nde_report = f.read()
+
+        # Read NDE analysis
+        with open(analysis_path, 'rb') as f:
+            nde_analysis = f.read()
 
         # Read JSON data
         with open(json_path, 'r') as f:
             json_data = json.load(f)
 
         # Insert into database
-        insert_data(conn, md_file, json_data, compressed_content)
+        insert_data(conn, txt_file, url, nde_analysis, nde_report, json_data)
 
     conn.close()
     logger.info("All data has been processed and inserted into the database.")

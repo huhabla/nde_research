@@ -6,7 +6,7 @@ import os
 import signal
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from nde_research.analyzer import process_nde_report, get_files_to_process
+from nde_research.jc_analyzer import process_nde_report, get_txt_files_to_process
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -36,7 +36,8 @@ def process_file(file_name, input_dir, client):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Process NDE reports using Anthropic's Claude API using Sonnet 3.5")
+    parser = argparse.ArgumentParser(description="Process NDE reports using Anthropic's Claude API using Sonnet 3.5 to "
+                                                 "analyze encounter with Jesus Christ and past life memories.")
     parser.add_argument("input_file", help="Path to the file containing list of NDE report file names")
     parser.add_argument("--parallel", type=int, default=1, help="Number of parallel requests to make")
     args = parser.parse_args()
@@ -56,7 +57,7 @@ def main():
     client = anthropic.Anthropic(api_key=api_key)
 
     # Get files to process
-    nde_report_files = get_files_to_process(args.input_file, input_dir)
+    nde_report_files = get_txt_files_to_process(args.input_file, input_dir)
 
     total_files = len(nde_report_files)
     logger.info(f"Found {total_files} NDE reports to process")
