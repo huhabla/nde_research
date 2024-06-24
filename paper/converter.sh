@@ -22,6 +22,7 @@ for pdf_file in *.pdf; do
 
     # Execute the Python script
     python pdf2txt.py "$pdf_file"
+    python pdf2md.py "$pdf_file"
 
     echo "------------------------"
 done
