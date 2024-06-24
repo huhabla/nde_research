@@ -21,8 +21,16 @@ for pdf_file in *.pdf; do
     fi
 
     # Execute the Python script
-    python pdf2txt.py "$pdf_file"
     python pdf2md.py "$pdf_file"
+    # Execute the pdftotext util
+    if [ -e `which pdftotext` ]; then
+        # Generate output filename
+        txt_file="${pdf_file%.pdf}.txt"
+        echo "Call pdftotext $pdf_file $txt_file"
+        pdftotext -layout -nopgbrk -enc "UTF-8" -eol unix "$pdf_file" "$txt_file"
+    else
+        python pdf2txt.py "$pdf_file"
+    fi
 
     echo "------------------------"
 done

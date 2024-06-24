@@ -1,0 +1,831 @@
+Cases of the Reincarnation Type with
+Memories from the Intermission
+Between Lives
+
+Poonam Sharma, B.A.
+Jim B. Tucker, M.D.
+
+   University of Virginia
+
+ABSTRACT: For the last 40 years, researchers have collected cases of children
+who claim to remember previous lives. In a minority of these cases, the
+subjects also claim to remember events that took place during the intermission
+between the end of their previous life and their birth in the current life.
+Subjects in these cases tend to make more verified statements about the
+previous life they claim to remember than do other subjects of reincarnation
+type cases, and they tend to recall more names from that life. Analysis of
+reports from 35 Burmese subjects indicates that the intermission memories
+can be broken down into three parts: a transitional stage, a stable stage in
+a particular location, and a return stage involving choosing parents or
+conception. A comparison of these reports to reports of near-death experi
+ences (NDEs) indicates that they show features similar to the transcenden
+tal component of Western NDEs and have significant areas of overlap with
+Asian NDEs.
+
+KEY WORDS: reincarnation, near-death experiences.
+
+   At the University of Virginia Division of Personality Studies,
+researchers have for the last 40 years collected cases of children who
+claim to remember previous lives (Stevenson, 2001). These cases of the
+reincarnation type (CORT) typically involve children who report
+
+   Poonam Sharma, B.A., is a medical student, and Jim B. Tucker, M.D., is Assistant
+Professor of Psychiatric Medicine, at the University of Virginia School of Medicine. This
+study was supported in part by a grant from the Society for Psychical Research. Reprint
+requests should be addressed to Dr. Tucker at the Division of Personality Studies,
+University of Virginia Health System. P.O. Box 800152, Charlottesville, VA 22908-0152;
+e-mail: jbt8n@virginia.edu.
+
+Journalof Near-Death Studies, 23(2), Winter 2004 2004 LANDS  101
+102  JOURNAL OF NEAR-DEATH STUDIES
+
+memories of a recent life at a very early age, usually beginning around
+the age of 2 or 3 years and ending by the age of 6 or 7. The memories
+they report sometimes involve the life of a family member or an
+acquaintance. In other cases, however, children have described the life
+of a stranger in another location, and people have then verified that an
+individual died whose life matched the description given by the child.
+We refer to that individual as the previous personality.
+
+   These cases often include other features in addition to the child's
+statements about a previous life. A number of children have been born
+with birthmarks or birth defects that corresponded to wounds, usually
+fatal ones, suffered by the previous personality, and many of the
+children show behaviors that seem related to the previous life, such as
+phobias related to the mode of death or repetitious play mimicking the
+previous personality's occupation.
+
+   In a minority of the cases, the children have reported memories of
+events that took place between the death of the previous individual and
+their own birth. These cases of the reincarnationtype with intermission
+memories, which we will refer to as CORT-I, are the focus of this paper.
+
+                     Statistical Analysis of CORT-I
+
+    More than 2500 CORT from around the world are now registered in
+our files, and 1200 of them have been entered into a computerized data
+base using SPSS for Windows, Version 12.0. In 276 of these, the subject
+has claimed to remember not only a past life, but also a time between
+lives, an intermission memory. These intermission memories are coded
+into four categories: claimed memories of the previous personality's
+funeral, memories of other terrestrial events, memories of an existence
+in another realm, and memories of conception or of being reborn.
+
+    Analyses were performed on the entire collection of CORT that have
+been entered into the computerized database with the exclusion of
+cases from Burma (also known as Myanmar). Coding of the Burmese
+CORT into the database is incomplete, with some cases being chosen
+because of the presence of intermission memories, so they are not
+a representative sample useful for statistical analysis. The countries
+in which the coding has been completed include Eastern countries
+such as India, Sri Lanka, Turkey, and Lebanon, along with the United
+States and Canada, and using cases from all countries except for
+Burma resulted in 1107 cases, with 217 of them having intermission
+memories. For the analysis, the number of cases varied for each item
+POONAM SHARMA AND JIM B. TUCKER                    103
+
+                              Table I
+Memory of Subjects and Strength of Cases in
+
+                  CORT-I Versus CORT
+
+                               CORT-I CORT  t  df  p
+
+Number of verified statements   9.07  4.92 -5.04 776 <.001
+Names from previous life        3.48
+Number of lives recalled        1.37  2.89 -2.34 670 .020
+SOCS score                     15.7
+                                      1.02 -3.15 141 .002
+
+                                      9.7   -8.23 1054 <.001
+
+based on the number of cases with the relevant data recorded. We used
+chi-square tests and independent t-tests to analyze these data, with
+a significance level of p = .05.
+
+   Table 1 compares CORT-I subjects with other CORT subjects on
+items related to past-life memories. CORT-I subjects made signifi
+cantly more statements about the previous life that were verified to be
+accurate than their CORT counterparts. They remembered more
+names from the previous life, in addition to the name of the previous
+personality. They also tended to recall a larger number of past lives.
+Based on Pearson chi-square tests, CORT-I subjects were significantly
+more likely to state the name or nickname of the previous personality
+
+(x2 = 9.549, df = 1, p = .049) and to claim to remember the mode of
+
+death (x2 = 5.388, df = 1, p = .020). While our database does not
+indicate specifically whether the names the subjects gave were
+accurate, the statements by the CORT-I subjects about the mode of
+death were much more likely to be independently verified than those
+of other subjects (x2 = 23.229, df= 1, p < .001), and in those cases, 84
+percent of their reports of the death were either accurate in most
+details (74 percent) or totally accurate (10 percent).
+
+   The CORT-I were also stronger than other CORT based on
+a Strength-of-Case Scale (SOCS) that assigns points according to four
+categories of factors: (1) birthmarks or birth defects on the subject that
+correspond to wounds on the previous personality, (2) verified
+statements by the subject ' about the previous life, (3) unusual
+behaviors related to the previous life, and (4) distance between the
+previous personality and the family of the subject (Tucker, 2000). The
+mean SOCS score was 15.7 for CORT-I and 9.7 for CORT.
+
+    Other features of the cases failed to differentiate CORT-I subjects
+from CORT subjects. There were no differences in gender of the
+subjects: 58 percent of the CORT-I subjects were male, as were 63
+104                                JOURNAL OF NEAR-DEATH STUDIES
+
+                                     Table II
+     Characteristics of CORT-I Versus CORT Subjects
+
+                            CORT-I CORT   t       df  p
+
+Age subject first spoke     22.69  22.54  -0.16   693 .872
+   (in months)                     35.84    0.60  917 .549
+                            34.07
+Age subject first                  0.93   0.42 1022 .681
+   communicated about        0.84
+   past life (in months)     0.60  0.23 -1.16     958 .247
+                             201
+Number of birthmarks               255    0.41    460 .68
+Number of birth defects
+Distance between previous
+
+   personality and subject
+   (in kilometers)
+
+percent of other CORT subjects (x2 =1.959, df=1, p = .162). As shown
+in Table 2, there were also no significant differences in the age when
+the children first spoke, the age when they first communicated about
+a past life, the number of birthmarks, the number of birth defects, and
+the distance between the previous personality and the subject. The
+mean distances shown in Table 2 (201 kilometers for cases with
+intermission memories and 255 kilometers for other cases) are skewed
+by a small number of extremely-long-distance cases. The median
+distances were 20 kilometers for cases with intermission memories
+and 14 kilometers for other cases.
+
+   Similarly, as shown in Table 3, chi-square tests indicated no
+significant differences in the behaviors of CORT-I subjects and other
+CORT subjects. The one exception was that subjects who reported
+intermission memories were less likely to express memories of the
+previous life in their play, but that difference lost statistical
+significance when the Bonferroni correction was used to correct for
+multiple simultaneous statistical tests on related data.
+
+   Lastly, we analyzed characteristics of the previous personality with
+chi-square tests, as shown in Table 4. These included characteristics
+both of that individual while living and of his or her death, and none of
+them had a significant effect on whether the subject in the case later
+reported intermission memories. The database has information on
+some of these items for only a small numbers of cases, reducing the
+power of the tests to detect a significant change, but none of the tests
+for those items came close to approaching significance.
+POONAM SHARMA AND JIM B. TUCKER             105
+
+                           Table III
+Behaviors of CORT-I Versus CORT Subjects
+
+                            Nx2         df  p
+
+Unusual maturity            661  1.633  3   .652
+
+Adult attitude              658  1.626  3   .804
+
+Unusual dietary cravings    615  6.024  3   .110
+
+related to previous life
+
+Unusual desire for alcohol  310  7.414  3   .060
+
+or tobacco
+
+Unusual philias related to  495  3.784  3   .286
+
+previous life
+
+Unusual phobias related to  808  3.408  3   .333
+
+previous life
+
+Memories of previous life   539  4.359  1   .037
+
+expressed in play
+
+Display of emotion during   659  0.191  3   .979
+
+recall of previous life
+
+Personality change during   577  0.793  3   .851
+
+recall of previous life
+
+   To summarize, these results indicate that only an unusually strong
+memory, and not any other characteristic of the subject or previous
+personality, distinguishes CORT-I subjects from other CORT subjects.
+The CORT-I subjects not only claim to have memories of the
+intermission between the deaths of the previous personality and their
+own births, but they also demonstrate more ability to recall a variety
+of memories from the past life. CORT-I subjects are more likely to
+state a name for the previous personality, names of other individuals
+from the previous life, and the mode of death of the previous
+personality, and they make significantly more statements about the
+previous life that have been verified to be accurate. Along with the
+highly significant differences in the SOCS scores, this indicates that
+these cases warrant serious consideration.
+
+                Analysis of Intermission Experiences
+
+   While claimed memories of an intermission experience are rare in
+some places, they appear to be relatively common in Burma. While the
+incidence for all of the Burmese cases collected in our files is unknown,
+106                             JOURNAL OF NEAR-DEATH STUDIES
+
+                                       Table IV
+          Characteristics of the Previous Personality in
+
+                             CORT-I Versus CORT
+
+                           Nx2          df                p
+
+Mode of death              908  15.189  9                 .086
+
+Unexpectedness of death    587  4.074   4                 .396
+
+Was previous personality   33   2.159   4                 .707
+
+a meditator?
+
+Was previous personality   74   0.824   3                 .844
+
+attached to wealth?
+
+Was previous personality   106  3.264   4                 .659
+
+a criminal?
+
+Was previous personality   88   3.217   4                 .522
+
+philanthropic/generous?
+
+Was previous personality   145  4.418   4                 .352
+
+religiously observant?
+
+Was previous personality   68   3.241   4                 .518
+
+saintly?
+
+Did previous personality   107  6.917   5                 .227
+
+have unfinished business?
+
+Ian Stevenson (1983) determined that 52 out of 230 Burmese cases (23
+percent) included such reports. In contrast, only 8 percent of the
+Turkish cases include intermission reports, and only 2 percent of the
+Lebanese cases have them. These cases were generally investigated
+more than 20 years ago, and repeat studies would be needed to
+ascertain if similar reports could be easily found today.
+
+   We are currently in the process of coding Burmese CORT to be
+entered into our database, and given the relatively common in
+termission reports in them, we decided to analyze those reports in
+depth as the cases were being coded. Analysis of 35 Burmese CORT-I
+led to a new scheme for categorizing the intermission experiences that
+subjects describe.
+
+   First, some information about the Burmese culture will allow some
+perspective on these cases. The prevalent religion is a combination of
+long-ago imported Buddhism and native animism. Buddhism is the
+more formal aspect, and it co-exists with a belief in nature spirits
+(nats) who are thought to cause trouble unless regularly appeased
+with gifts and displays of respect. While Buddhism predicts changes in
+fortune over lifetimes according to accumulated karma, the existence
+POONAM SHARMA AND JIM B. TUCKER  107
+
+of nats is invoked to explain more day-to-day misfortunes, and belief in
+them is widespread (Nash, Obeyesekere, Ames, Ingersoll, Pfanner,
+Nash, Moerman, Ebihara, and Yalman, 1966; Spiro, 1978). The
+religious background of Burma may contribute to the increased
+reports of intermission memories or to the specifics of those reports.
+
+Development of a Composite Temporal Scheme
+
+   Categorizing CORT-I intermission memories is fraught with pitfalls.
+Accounts of intermission experiences vary, and no two accounts are
+identical. There are, however, recurring themes, events, and chronol
+ogies. Keeping these points in mind, we developed a three-stage
+temporal scheme to describe the intermission experience and to provide
+a starting point for further analysis. It describes the typical chronolog
+ical progression of CORT-I in Burma and highlights the characteristic
+events and themes of each stage. Not all three stages were experienced
+by all subjects, and a few subjects described typical characteristics of
+a particular stage either earlier or later than would be expected by the
+progression described below. Nevertheless, the described format suited
+the majority of the cases and serves as a preliminary categorization plan
+suitable as a stepping-stone for further analysis.
+
+   Stage 1. The first stage could be named the "transitional stage."
+Nine of 35 Burmese intermission subjects recalled characteristics
+typical of this period. While interview notes rarely document any
+references by subjects to their emotional state during the intermission
+period, the events recalled during the transitional stage would often
+seem uncomfortable or unpleasant to the Western reader. The events
+and characters described are associated with the previous life.
+Subjects may see the preparation of the previous personality's body
+or the funeral or try to contact grieving relatives, only to find they are
+unable to communicate with the living. One subject said he did not
+realize he was dead. Several reported being driven away by the
+weeping of their relatives, an experience that one subject said made
+him "hot." This stage often ends as the subject is directed by an elder
+or an old man dressed in white to a place where he or she then stays
+for the bulk of the intermission experience.
+
+    Stage 2. The second stage is characterized by its marked stability
+compared to the other two stages. Subjects report living in a particular
+location or having a schedule or duties to which they must attend. Of
+the 35 cases so far analyzed, 19 had reports typical of the second stage.
+108  JOURNAL OF NEAR-DEATH STUDIES
+
+Nine reported staying in a tree, four in a pagoda, and two remained
+near the place of death. Reports of seeing or interacting with other
+discarnate personalities are common (seven subjects). Subjects report
+varying degrees of comfort during this period. One subject reported
+being abused by other spirits who threw objects at him, and having to
+walk long distances. Another woman reported not being able to leave
+the site where she had buried her jewelry in life, but said that she was
+far more beautiful as a discarnate and had pretty dresses of gold.
+Another woman, however, who is very poor in her current life,
+reported that all her needs were taken care of as a discarnate and that
+her experience was "quite pleasant."
+
+   Stage 3. The final stage is one of choosing parents for the next life or
+of conception. Eighteen of 35 subjects reported characteristics of this
+stage. Seven reported following the future parents home, apparently
+on their own initiative, as the parents passed by while performing
+everyday tasks, such as bathing or returning home from work. Five
+more reported being directed to the present parents, often by elders or
+the old man figure referred to in stage 1. Nine commented on how they
+gained entrance to the mother's body. This was most often by
+transforming into a grain of rice or speck of dust in the water and
+being ingested by the mother. A few went to considerable lengths,
+having to try repeatedly when either they were rebuffed by guardian
+spirits or the water was thrown out as dirty.
+
+    Preliminary comparison suggests that this scheme is applicable not
+only to Burmese CORT-I but to CORT-I internationally. Stevenson
+(1983) reported the case of Bongkuch Promsin from Thailand, who
+claimed that, after the death of his previous personality, he lived in
+a tree for seven years (stage 2) and then followed his current father
+home on a bus (stage 3). Thai monk Chaokhun Rajsuthajarn reported
+attending the funeral of the previous personality (stage 1) and trying
+to interact with the guests, only to realize that he was invisible to
+them (Stevenson, 1983). Purnima Ekanayake of Sri Lanka reported
+seeing people crying at her funeral (stage 1) and going to the light to
+come to her new family (stage 3) (Haraldsson, 2000). Sam Taylor (an
+unpublished American case from our files) reported that God gave him
+a card with green arrows to come back from heaven (stage 3). While
+the specific imagery may be culture-specific, preliminary study
+ suggests that the phases seem to be universally applicable. The
+further study into the details of international CORT-I required to
+refine this assertion remains to be done.
+POONAM SHARMA AND JIM B. TUCKER  109
+
+   Comparison of CORT-I with Near-Death Experiences
+
+   The recurring thematic elements of CORT-I, particularly the visions
+of other beings and suggestions of being in another realm, bring to
+mind accounts of near-death experiences (NDEs). This thematic
+overlap deserves exploration. An initial comparison was undertaken
+by application of two NDE scales, the Weighted Core Experience Index
+(WCEI) (Ring, 1980) and the Near-Death Experience Scale (Greyson,
+1983), to the composite temporal scheme outlined above. Some
+differences in accounts should be expected, since NDErs obviously
+return to life or continue living, while people who report intermission
+memories claim to recall a period after they had permanently lost
+a life. Furthermore, the WCEI and the NDE Scale were developed
+using accounts from very different cultural surroundings than the
+CORT-I. This being the case, we explored the differences between
+NDEs (as outlined in the two scales) and CORT-I using an
+international review of NDEs and studies of NDEs in Burma's
+neighbors, India and Thailand.
+
+Comparison of Composite CORT-I with the WCEI
+
+   The WCEI consists of 10 items that are weighted differentially to
+produce a measure of the depth of an NDE, as outlined in Table 5. It
+starts with "a subjective sense of being dead" experienced by all 35 of
+the Burmese CORT-I used for analysis (1 point). The second item,
+"feeling of peace, painlessness, etc.," was described by only two
+subjects (one saying, "I was quite happy" and the other stating a more
+ambiguous, "It appeared to be a very pleasant life"). In fact, more
+common were statements of discomfort, especially around weeping
+relatives ("the relatives started weeping. ... I could not bear it"; "We
+felt very hot if any of our relatives wept for us. ... We would have to
+flee"; "Weeping scares away discarnates").
+
+   Nor did any of the Burmese CORT-I analyzed clearly report the next
+item, "sense of bodily separation." Some reported watching their
+funeral (apparently not from the perspective of the body), being able to
+change form, or not having to eat - characteristics suggestive of a lack
+of bodily sensation or limitations. However, many (10 subjects)
+described the clothes they were wearing, usually the clothes of
+the deceased. The mention of clothes, particularly the clothes of the
+110                              JOURNAL OF NEAR-DEATH STUDIES
+
+                                         Table V
+                   The WCEI and CORT-I Experiences
+
+        WCEI Item             Weight  Commonly Reported by
+                                          CORT-I Subjects
+
+Subjective sense of being     1       Yes
+
+dead                                  No
+
+Feeling of peace,             2       No (?)
+                                      No
+painlessness, etc.
+                                      Yes
+Sense of bodily separation    2
+                                      No
+Sense of entering a dark      2       No
+
+region                                No
+                                      No
+Encountering a                3       Yes
+
+presence/hearing a voice
+
+Taking stock of one's life    3
+
+Seeing, or being enveloped    2
+
+in, light
+
+Seeing beautiful colors       1
+
+Entering into the light       4
+
+Encountering visible spirits  3
+
+deceased, makes this an ambiguous area of overlap. Based on the
+descriptions of their actions, however, the subjects seemed to
+remember being separate from their physical bodies even if they did
+not immediately recognize it or explicitly state it.
+
+   The next item, "sense of entering a dark region," was not reported.
+Many (nine subjects) did report the next item, however, "encountering
+a presence/hearing a voice" (3 points). This presence was referred as an
+old man in white, and elder, the Authority, Hades, or the Guardian. The
+presence usually offered guidance through a period of transition. Only
+one case reported "taking stock of one's life" (chided by "Hades" for not
+performing a particular religious ceremony) and none reported either
+"seeing, or being enveloped in, light," "seeing beautiful colors," or
+"entering into the light." The last feature, "encountering visible spirits"
+(3 points), was frequently referred to (14 cases). The fact that these
+spirits as well as the subject were referred to as "discarnates" lends
+further support to a "sense of bodily separation" mentioned earlier.
+
+   Many CORT-I accounts include the three features of a subjective
+sense of being dead, encountering a presence, and encountering visible
+POONAM SHARMA AND JIM B. TUCKER                       111
+
+                         Table VI
+The NDE Scale and CORT-I Experiences
+
+NDE Scale Item                                Commonly Reported
+                                              by CORT-I Subjects
+
+Cognitive component:                          No
+   Time distortion                            No
+   Acceleration of thoughts                   No (?)
+   Life review                                No
+   Sudden understanding
+                                              Rare
+Affective component:                          No
+   Peace, pleasantness                        No
+   Joy                                        No
+   Cosmic unity
+   Seeing or feeling surrounded by light      No
+                                              No
+Paranormal component:                         No
+                                              No (?)
+   Senses more vivid than usual
+   Extrasensory perception                    Yes
+   Precognitive visions                       Yes
+   Out-of-body experience                     Yes
+                                              No
+Transcendental component:
+
+   Entering an unearthly world or dimension
+   Encountering a mystical being or presence
+   Seeing deceased or religious spirits
+   Border or point of no return
+
+spirits, which would score a 7 on the WCEI, falling into Ring's category
+of a "moderate experience." Inclusion of "a sense of bodily separation"
+would push the composite temporal experience into the "deep
+experience" category. Clearly, this is enough to indicate a similarity
+between the reports of the two experiences.
+
+Comparison of Composite CORT-I with the NDE Scale
+
+   While comparison to the WCEI establishes areas of overlap between
+CORT-I and NDEs as a whole, comparison of CORT-I with the NDE
+Scale highlights the contrasts between the two experiences (Table 6).
+112  JOURNAL OF NEAR-DEATH STUDIES
+
+The questionnaire is divided into four categories with four questions
+each. The categories highlight the cognitive, affective, paranormal,
+and transcendental aspects of the NDE. This categorization of NDE
+features allows a clearer picture of how NDEs and intermission
+memories in CORT-I differ.
+
+   None of the CORT-I subjects claimed a clear cognitive change as
+a discarnate. Far from talking about an increase in the speed of time
+(question 1), subjects who referred to. time reported definite time
+periods with no reference to a change in the rate of time, such as, "I
+was a discarnate for 7 days." No subjects reported a change in the
+speed of thoughts (question 2). Two subjects made statements that, if
+stretched, may indicate past scenes coming back to them (question 3).
+One said that Hades chided her for not performing a religious
+ceremony. Another said that spirits were shown places where they had
+lived and asked if they yearned for those earthly places. None of the 35
+cases claimed to experience a universal understanding (question 4).
+
+   Comparison of CORT-I with the affective component of the question
+naire reveals even more differences. Only 2 of the 35 cases, as discussed
+before, suggested a feeling of peace or pleasantness (question 5), while
+several reported uncomfortable experiences. None suggested a feeling of
+joy (question 6) or a feeling of harmony or unity with the universe
+(question 7), or saw or felt surrounded by a brilliant light (question 8).
+
+   Similarly, comparison with the four paranormal questions brings
+out few similarities. No CORT-I subjects reported a heightening of
+senses (question 9), although one reported an ability to see auras
+during his time as a discarnate. None reported a sense of awareness of
+things going on elsewhere (question 10). None reported scenes from
+the future (question 11). And none clearly stated feeling separated
+from their body (question 12).
+
+   The transcendental aspect of the questionnaire displays dramati
+cally different results. Reports of another realm were common
+(question 13). As discussed earlier, many encountered a mystical being
+or presence, such as an old man in white, Hades, or the Guardian
+(question 14). Many (14 subjects) also referred to deceased spirits they
+saw during their period as a discarnate (question 15). None reported
+coming to a border or point of no return, perhaps not surprisingly since
+they claimed to have passed on to death and not returned to life.
+
+   To summarize, both NDEs as defined by the WCEI and CORT-I
+include a sense of being dead, encountering a presence (often referred to
+as an old man in white in CORT-I) and encountering visible spirits
+(other discarnates or deceased relatives). Comparison with the NDE
+POONAM SHARMA AND JIM B. TUCKER  113
+
+Scale highlights the relative lack of reports of cognitive, affective, or
+paranormal aspects to the death experience described by CORT-I
+subjects, and the sizable overlap in transcendental aspects of the two
+experiences.
+
+Comparison of Composite CORT-I with InternationalNDEs
+
+   Both the WCEI and NDE Scale were developed from American
+accounts of NDEs. The few comparisons of NDEs from Hindu and
+Buddhist cultures suggest there are definite cross-cultural variations
+(Murphy, 2001; Pasricha and Stevenson, 1986; Pasricha, 1995). Thus,
+the discrepancies between NDEs and CORT-I described so far may be
+due to the application of Western standards to a Burmese sample.
+Ideally, CORT-I studied in Burma with would be compared to NDE
+accounts of Burmese subjects, but since no study of Burmese NDEs has
+yet been undertaken, we will use the few works on international NDEs
+as a serviceable proxy to review the remaining differences between NDE
+accounts and the experiences recalled by CORT-I subjects.
+
+   Allan Kellehear (1993) reviewed published reports of NDEs from
+China, India, Western New Britain, Guam, Native North America,
+Aboriginal Australia, and Maori New Zealand, with the number of
+cases in some places being very small. After reviewing several elements
+of NDEs widespread among Western cases (tunnel experience, out-of
+body experience [OBE], life review, encounters with other beings, and
+another world) he found the major cross-cultural features to be
+encountering other beings and other worlds, two common character
+istics of CORT-I. The tunnel experience, missing from CORT-I, was not
+reported in any of the nonWestern NDEs that Kellehear reviewed,
+though experiences of darkness were often present. Other features
+present in several but not all cultures' NDEs were also present in
+CORT-I. Out-of-body experiences, which were at least suggested in
+CORT-I, were reported from India, Guam, Native North America, and
+Maori New Zealand, but not from China or Aboriginal Australia and
+probably not from Western New Britain. The life review present in one
+CORT-I was reported in China, India, and probably Western New
+Britain, but not from Guam, Native North America, Aboriginal
+Australia, or Maori New Zealand. The only features that Kellehear
+found in NDEs from all cultures - seeing other beings and other
+realms - are readily apparent in CORT-I as well, and CORT-I may
+resemble Western NDEs as much as do the NDEs of some other
+cultures.
+114  JOURNAL OF NEAR-DEATH STUDIES
+
+Indian NDEs and CORT-I
+
+   Similar to Kellehear's results, Satwant Pasricha (1995) found both
+similarities and differences between cross-cultural accounts of NDEs.
+Both Indian and American subjects reported meeting dead relatives
+and acquaintances, seeing beings of light or religious figures, being
+revived through the thoughts of loved living persons, being sent back
+from the other realm by a deceased loved one, and seeing their own
+physical body while ostensibly dead. The fast two characteristics were
+not found among North Indian cases and so may not be universal
+characteristics. Being sent back by the thoughts or actions of loved
+ones is not a criterion applicable to the study of CORT-I, since CORT-I
+subjects claim not to have been sent back. The remaining two
+characteristics, meeting deceased relatives and seeing beings of light
+or religious figures, seem to correlate with CORT-I accounts.
+
+   Pasricha also reported six characteristics of Indian NDEs that are
+not seen in American NDEs. Four involve returning to life and are
+therefore not relevant to CORT-I, but the other two are that the
+subject was "taken to other realms by messengers or some one" and
+then was "passed on to the man with a book" containing a list of deeds
+or mistakes (Pasricha, 1995, p. 86). While the Burmese CORT-I
+subjects did not report the latter, their reports of being directed to
+a new place by an elder or an old man dressed in white at the end of
+the transitional phase sound very similar to the former.
+
+Thai NDEs and CORT-I
+
+   Both India and Thailand border Burma, but Thailand appears to
+have a more similar religious climate. While Burmese supernatural
+ism has not permeated Thailand, Theravada Buddhism is the religion
+of the overwhelming majority in both countries.
+
+   Todd Murphy (2001) gathered a collection of ten NDE cases from
+Thai popular literature. The reported imagery seemed to be very much
+affected by the culture, though Murphy argued that it should actually
+be considered a reflection of the individuals' expectations of what
+death would be like rather than a reflection of their culture itself. The
+themes he reported were Yamatoots (servants of the God of death,
+Yama), the importance of merit accumulated during life, and the
+presence of cases of mistaken identity.
+
+   The appearance of the Yamatoots seemed to act in concert with
+OBEs to convey to the subjects that they were deceased and separate
+POONAM SHARMA AND JIM B. TUCKER  115
+
+from their bodies. Murphy noted that while OBEs might be found in
+the NDEs of all cultures, some may not recognize them as a herald of
+death, and thus, anthropomorphic harbingers of death such as
+Yamatoots might be necessary to reinforce the awareness of death.
+No correspondence to the Yamatoots is seen in the Burmese CORT-I,
+but they are seen frequently in Indian NDEs (Pasricha and Stevenson,
+1986). The Burmese reports are more suggestive of out-of-body
+experiences like those of a typical Western NDE, even if the subjects
+are not aware of separating from their bodies. Rather than being
+explicitly told that they are dead, Burmese subjects seemed to figure it
+out on their own, although a few subjects reported that it took them up
+to 7 days to realize it.
+
+   The second Thai characteristic, postmortem assessment of karma by
+Yama, seems to be similar to a life review in Western NDEs, with some
+significant differences. The Thai version involves either explicit
+physical suffering as punishment for the accumulation of bad karma
+(for example, being forced to go thirsty if the subject never offered
+drinks to monks) or implied suffering in future lives (for example,
+rebirth as a bird). Also, Murphy reported that some cases seemed to
+assess the balance of good and bad done during life rather than the
+moment-by-moment life review reported in Western NDEs. This type
+of life review bears more similarity to Pasricha's account of Indian
+NDEs, where messengers pass the subject on to a man with a book,
+rather than the Western panoramic life review. It is hard to determine
+from the one reported case of a life review in the Burmese CORT-I
+studied which model would be a more appropriate description for
+CORT-I generally. In that case, however, the subject reported being
+chided by Hades for not performing a particular religious ceremony.
+The reference to one specific lack and the explicit mention of a direct
+reprimand suggest that in that case, the life review was more similar
+to Asian NDEs in this regard.
+
+    The third characteristic Murphy reported, cases of mistaken
+identity, are also found in Indian cases but not in Western NDEs.
+No reports of mistaken identity have been found in Burmese CORT-I,
+perhaps unsurprisingly, since the subjects all died rather than getting
+"sent back" in favor of the correct person. The universal features
+pointed out by Kellehear and Pasricha and present in CORT-I are also
+present in the Thai NDEs. For example, dead friends and relatives
+were seen in four of Murphy's 10 cases.
+
+    One of the most striking differences between Western NDEs and
+Burmese CORT-I so far described is the significant lack of positive
+116  JOURNAL OF NEAR-DEATH STUDIES
+
+affect so frequently described in the Western near-death experiences.
+This positive affect also seems to be missing from Thai NDEs. Murphy
+reported that while some subjects claimed to see heaven and feel
+"pleasantness, comfort, a sense of beauty, and happiness," none
+reported the "ineffable" experience so often relayed by NDErs in the
+West. And just as common, Murphy reported, were reports of negative
+affect. Five of his subjects reported seeing the tortures of hell, and the
+reports of seeing heaven or hell are similar, in theme if not in specifics,
+to reports of other realms described by CORT-I subjects.
+
+   Lastly, Murphy reported an absence of the light and tunnels in Thai
+NDEs. While both are common NDE images in the West, they seem to
+be missing from both Thai NDEs and Burmese CORT-I.
+
+                                       Conclusion
+
+   Cases of the reincarnation type with intermission memories are
+a striking phenomenon, but since the memories are usually unverifi
+able, they have not been a significant focus of research up to this point.
+The current analysis, however, suggests that they should be carefully
+considered. Since the children who report such memories tend to make
+more verified statements about the previous life they claim to remember
+than do other subjects, and tend to recall more names from that life,
+their reports of events from the intermission period seem to be part of
+a pattern of a stronger memory for items preceding their current lives.
+
+   An examination of the content of the intermission memories indicates
+significant overlap with reports of NDEs. For the Western NDEs, this is
+particularly true for the transcendental aspects of those reports. For
+NDE reports from other parts of the world, the universal features of
+NDEs are seen in the intermission descriptions, and the Burmese
+intermission reports are similar, though not identical, to NDE reports
+from neighboring India and Thailand. While the differences in the
+reports should not be glossed over, the similarities indicate that the
+intermission reports by children claiming to remember previous lives
+may need to be considered as part of the same overall phenomenon
+reports of the afterlife - that encompasses NDEs.
+
+   If the intermission reports are part of an overall phenomenon, then
+what do they reveal about that phenomenon? As with NDEs, the reports
+show individual differences and contain features that seem to be at least
+culturally connected, if not culturally driven. More universal themes,
+POONAM SHARMA AND JIM B. TUCKER  117
+
+however, appear to underlie those features. They include a recognition
+of dying, either through an OBE or through a visit from a harbinger of
+death. There is often then an experience with spirits or a visit to, or view
+of, another realm. This is frequently followed by memories of returning
+to life, either in a new body in the intermission cases or by reaching
+a point of no return and turning back in the case of NDEs.
+
+   While the latter two themes might be thought of as attempts to deny
+the reality of death, the first can hardly be so. In fact, the argument
+that NDErs create their fantasies of an afterlife as a defense against
+the confrontation with death is weakened by the similar intermission
+reports. The subjects in these cases are young children who have not
+been close to death and in fact would not be thought able to
+comprehend the concept of death; yet their reports bear many
+similarities to NDE reports, thus posing a problem for psychological
+explanations offered for NDEs. Likewise, the neurophysiological
+explanations that have been offered cannot explain the similar reports
+from healthy, young children.
+
+   More work needs to be done with the intermission memory cases; in
+particular, reports from various cultures need to be closely analyzed.
+Further exploration of these cases may also provide additional insights
+into phenomena such as NDEs.
+
+                                       References
+
+Greyson, B. (1983). The near death experience scale: Construction, reliability, and
+   validity. Journalof Nervous and Mental Disease, 171, 369-375.
+
+Haraldsson, E. (2000). Birthmarks and claims of previous-life memories: I. The case of
+   Purnima Ekanayake. Journal of the Society for Psychical Research, 64, 16-25.
+
+Kellehear, A. (1993). Culture, biology, and the near death experience: A reappraisal.
+  Journal of Nervous and Mental Disease, 181, 148-156.
+
+Murphy, T. (2001). Near-death experiences in Thailand. Journal of Near-Death Studies,
+   19, 161-178.
+
+Nash, M., Obeyesekere, G., Ames, M. M., Ingersoll, J., Pfanner, D. E., Nash, J. C.,
+   Moerman, M., Ebihara, M., and Yalman, N. (1966). Anthropological studies in
+   Theravada Buddhism. New Haven, CT: Yale University.
+
+Pasricha, S. (1995). Near death experiences in south India: A systematic survey. Journal
+   of Scientific Exploration, 9, 79-88.
+
+Pasricha, S., and Stevenson, I. (1986). Near death experiences in India: A preliminary
+   report. Journal of Nervous and Mental Disease, 174, 165-170.
+
+Ring, K. (1980). Life at death: A scientific investigation of the near-death experience. New
+   York, NY: Coward, McCann and Geoghegan.
+
+Spiro, M. E. (1978). Burmese supernaturalism (expanded ed.). Philadelphia, PA:
+   Institute for the Study of Human Issues.
+118  JOURNAL OF NEAR-DEATH STUDIES
+
+Stevenson, I. (1983). Cases of the reincarnation type, Vol. IV: Twelve cases in Thailand
+   and Burma. Charlottesville, VA: University Press of Virginia.
+
+Stevenson, I. (2001). Children who remember previous lives: a question of reincarnation
+   (rev. ed.). Jefferson, NC: McFarland.
+
+Tucker, J. B. (2000). A scale to measure the strength of children's claims of pre
+   vious lives: Methodology and initial findings. Journal of Scientific Exploration, 14,
+   571-581.
