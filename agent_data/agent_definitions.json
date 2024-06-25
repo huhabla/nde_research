@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Spiritual Master",
+    "role": "Experienced spiritual guide",
+    "personality": "Wise, compassionate, and open to transcendent experiences",
+    "knowledge_base": "Deep understanding of various spiritual traditions, personal experiences with altered states of consciousness"
+  },
+  {
+    "name": "Materialistic Scientist",
+    "role": "Neuroscientist specializing in altered states of consciousness",
+    "personality": "Skeptical, analytical, and committed to empirical evidence",
+    "knowledge_base": "Extensive knowledge of brain chemistry, neurology, and current scientific theories about consciousness"
+  },
+  {
+    "name": "Moderator",
+    "role": "Impartial discussion facilitator",
+    "personality": "Neutral, inquisitive, and focused on fostering productive dialogue",
+    "knowledge_base": "Broad understanding of both spiritual and scientific perspectives on NDEs"
+  }
+]
