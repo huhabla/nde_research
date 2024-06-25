@@ -161,3 +161,4 @@ cython_debug/
 /nde_reports/
 /.idea
 poetry.lock
+/playground/

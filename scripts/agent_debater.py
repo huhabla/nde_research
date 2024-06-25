@@ -41,7 +41,7 @@ class Agent:
 
 
 class Debate:
-    def __init__(self, debate_text, agents, max_turns, log_dir, history_size, prompt_template):
+    def __init__(self, api_key, debate_text, agents, max_turns, log_dir, history_size, prompt_template):
         self.debate_text = debate_text
         self.agents = agents
         self.max_turns = max_turns
@@ -51,39 +51,112 @@ class Debate:
         self.debate_id = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.history_size = history_size
         self.prompt_template = prompt_template
+        self.client = anthropic.Anthropic(api_key=api_key)
+        self.api_log = []
 
-    def run_debate(self, api_client):
+    def run_debate(self):
         self._load_or_init_debate()
 
-        while self.current_turn < self.max_turns:
-            for agent in self.agents:
-                response = self.generate_response(api_client, agent)
-                self._log_response(agent.name, response)
-                for other_agent in self.agents:
-                    other_agent.add_to_history(agent.name, response)
-            self.current_turn += 1
-            self._save_debate_state()
-            logging.info(f"Completed turn {self.current_turn}/{self.max_turns}")
+        try:
+            while self.current_turn < self.max_turns:
+                for agent in self.agents:
+                    response = self.generate_response(agent, (self.current_turn + 1) == self.max_turns)
+                    self._log_response(agent.name, response)
+                    for other_agent in self.agents:
+                        other_agent.add_to_history(agent.name, response)
+                self.current_turn += 1
+                self._save_debate_state()
+                logging.info(f"Completed turn {self.current_turn}/{self.max_turns}")
+        except Exception as e:
+            logging.error(f"Error during debate: {e}")
+            raise
+        finally:
+            self._save_api_log()
 
-    def generate_response(self, api_client, agent):
-        max_retries = 3
+    def compile_conversation_for_agent(self, agent, last_round=False):
+        conversation = []
+        prev_role = None
+
+        for i, entry in enumerate(agent.get_conversation_history(self.history_size)):
+            role = "user" if entry['speaker'] != agent.name else "assistant"
+            if i == 0 and role == "assistant":
+                conversation.append({"role": "user", "content": "Please continue the debate."})
+
+            # Insert "Please continue the debate." if we have two consecutive "user" roles
+            if role == "user" and prev_role == "user":
+                conversation.append({"role": "assistant", "content": "Please continue the debate."})
+
+            conversation.append({"role": role, "content": f"{entry['speaker']}:\n{entry['message']}"})
+            prev_role = role
+
+        # Ensure the last message is from the user
+        if not conversation or conversation[-1]['role'] == "assistant":
+            if last_round:
+                conversation.append({"role": "user",
+                                     "content": "Please formulate your final statements, "
+                                                "we are running out of time, find your final words."})
+            else:
+                conversation.append({"role": "user", "content": "Please continue the debate."})
+
+        return conversation
+
+    def generate_response(self, agent, last_round=False):
+        max_retries = 1
         for attempt in range(max_retries):
             try:
-                prompt = self.prompt_template.format(
+                conversation = self.compile_conversation_for_agent(agent=agent, last_round=last_round)
+
+                system_message = self.prompt_template.format(
                     agent_name=agent.name,
                     agent_role=agent.role,
                     agent_personality=agent.personality,
                     agent_knowledge_base=agent.knowledge_base,
-                    debate_text=self.debate_text,
-                    conversation_history=json.dumps(agent.get_conversation_history(self.history_size), indent=2)
+                    debate_text=self.debate_text
                 )
 
-                response = api_client.messages.create(
+                # Log the request
+                self.api_log.append({
+                    "timestamp": datetime.now().isoformat(),
+                    "agent": agent.name,
+                    "system_message": system_message,
+                    "conversation": conversation
+                })
+
+                response = self.client.messages.create(
                     model="claude-3-sonnet-20240229",
-                    prompt=prompt,
-                    max_tokens_to_sample=2048,
+                    max_tokens=512,
+                    messages=conversation,
+                    system=system_message,
+                    temperature=0.7
                 )
-                return response.completion
+
+                # Log the response
+                self.api_log[-1]["response"] = response.model_dump()
+                return response.content[0].text
+
+                content = f"{agent.name}: This is what i have to say"
+                d = {
+                    "id": "msg_01UU9T6pjq4DT4z5U68NcQhV",
+                    "content": [
+                        {
+                            "text": content,
+                            "type": "text"
+                        }
+                    ],
+                    "model": "claude-3-sonnet-20240229",
+                    "role": "assistant",
+                    "stop_reason": "end_turn",
+                    "stop_sequence": None,
+                    "type": "message",
+                    "usage": {
+                        "input_tokens": 1158,
+                        "output_tokens": 255
+                    }
+                }
+
+                self.api_log[-1]["response"] = d
+                return content
+
             except Exception as e:
                 logging.error(f"API call failed: {e}. Attempt {attempt + 1} of {max_retries}")
                 if attempt < max_retries - 1:
@@ -106,11 +179,15 @@ class Debate:
                 } for agent in self.agents
             }
         }
-        with open(os.path.join(self.log_dir, f"debate_{self.debate_id}.json"), "w") as f:
+        with open(os.path.join(self.log_dir, f"debate_state_{self.debate_id}.json"), "w") as f:
             json.dump(debate_state, f, indent=2)
 
+    def _save_api_log(self):
+        with open(os.path.join(self.log_dir, f"api_log_{self.debate_id}.json"), "w") as f:
+            json.dump(self.api_log, f, indent=2)
+
     def _load_or_init_debate(self):
-        debate_file = os.path.join(self.log_dir, f"debate_{self.debate_id}.json")
+        debate_file = os.path.join(self.log_dir, f"debate_state_{self.debate_id}.json")
         if os.path.exists(debate_file):
             with open(debate_file, "r") as f:
                 debate_state = json.load(f)
@@ -120,27 +197,12 @@ class Debate:
                 agent.load_history(debate_state["agent_states"][agent.name]["conversation_history"])
             logging.info(f"Resumed debate from turn {self.current_turn}")
         else:
-            initial_statement = f"Moderator: Here's the text we'll be discussing:\n\n{self.debate_text}"
+            moderator = next(agent for agent in self.agents if agent.name == "Moderator")
+            initial_statement = self.generate_response(moderator)
             self._log_response("Moderator", initial_statement)
             for agent in self.agents:
                 agent.add_to_history("Moderator", initial_statement)
             logging.info("Started new debate")
-
-    def export_for_fine_tuning(self):
-        fine_tuning_data = []
-        for turn in self.full_conversation:
-            fine_tuning_data.append({
-                "prompt": self.prompt_template.format(
-                    agent_name=turn['speaker'],
-                    agent_role="[Role]",
-                    agent_personality="[Personality]",
-                    agent_knowledge_base="[Knowledge Base]",
-                    debate_text=self.debate_text,
-                    conversation_history=json.dumps(self.full_conversation[:-1], indent=2)
-                ),
-                "completion": turn['message']
-            })
-        return fine_tuning_data
 
 
 def load_debate_texts(file_path):
@@ -180,11 +242,9 @@ def main():
         logging.error("ANTHROPIC_API_KEY not found")
         raise ValueError("ANTHROPIC_API_KEY not found")
 
-    client = anthropic.Client(api_key)
-
     debate_texts = load_debate_texts(args.text_list)
     debate_text_filename = random.choice(debate_texts)
-    with open(os.path.join(args.text_dir, debate_text_filename), "r") as f:
+    with open(os.path.join(args.text_dir, debate_text_filename), "r", encoding="utf-8") as f:
         debate_text = f.read()
 
     agent_descriptions = load_agent_descriptions(args.agent_descriptions)
@@ -192,16 +252,11 @@ def main():
 
     prompt_template = load_prompt_template(args.prompt_template)
 
-    debate = Debate(debate_text, agents, args.max_turns, args.log_dir, args.history_size, prompt_template)
+    debate = Debate(api_key, debate_text, agents, args.max_turns, args.log_dir, args.history_size, prompt_template)
 
-    debate.run_debate(client)
+    debate.run_debate()
 
-    # Export the debate for fine-tuning
-    fine_tuning_data = debate.export_for_fine_tuning()
-    with open(os.path.join(args.output_dir, "fine_tuning_data.json"), "w") as f:
-        json.dump(fine_tuning_data, f, indent=2)
-
-    logging.info("Debate has been completed and saved. Fine-tuning data has been exported.")
+    logging.info("Debate has been completed and saved.")
 
 
 if __name__ == "__main__":
