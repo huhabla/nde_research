@@ -41,6 +41,12 @@ def process_file(file_name, input_dir, client):
 
 
 def main():
+    """
+    Example runs:
+        python scripts/nde_analyzer.py ~/OneDrive/Dokumente/nde_md_files/nde_list.txt --parallel 2
+        python scripts/create_nde_database.py ~/OneDrive/Dokumente/nde_md_files/nde_list.txt --db_name nde_large.db
+    :return:
+    """
     parser = argparse.ArgumentParser(description="Process NDE reports using Anthropic's Claude API using Sonnet 3.5 to "
                                                  "analyze encounter with Jesus Christ and past life memories.")
     parser.add_argument("input_file", help="Path to the file containing list of NDE report file names")
