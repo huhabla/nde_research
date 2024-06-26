@@ -20,6 +20,8 @@ class AgentDescription(BaseModel):
     role: str
     personality: str
     knowledge_base: str
+    behaviour: str
+    lead_role: bool
 
 
 class Agent:
@@ -28,6 +30,8 @@ class Agent:
         self.role = description.role
         self.personality = description.personality
         self.knowledge_base = description.knowledge_base
+        self.behaviour = description.knowledge_base
+        self.lead_role = description.lead_role
         self.conversation_history = []
 
     def add_to_history(self, speaker, message):
@@ -111,6 +115,7 @@ class Debate:
                     agent_role=agent.role,
                     agent_personality=agent.personality,
                     agent_knowledge_base=agent.knowledge_base,
+                    behaviour=agent.behaviour,
                     debate_text=self.debate_text
                 )
 
@@ -133,29 +138,6 @@ class Debate:
                 # Log the response
                 self.api_log[-1]["response"] = response.model_dump()
                 return response.content[0].text
-
-                content = f"{agent.name}: This is what i have to say"
-                d = {
-                    "id": "msg_01UU9T6pjq4DT4z5U68NcQhV",
-                    "content": [
-                        {
-                            "text": content,
-                            "type": "text"
-                        }
-                    ],
-                    "model": "claude-3-sonnet-20240229",
-                    "role": "assistant",
-                    "stop_reason": "end_turn",
-                    "stop_sequence": None,
-                    "type": "message",
-                    "usage": {
-                        "input_tokens": 1158,
-                        "output_tokens": 255
-                    }
-                }
-
-                self.api_log[-1]["response"] = d
-                return content
 
             except Exception as e:
                 logging.error(f"API call failed: {e}. Attempt {attempt + 1} of {max_retries}")
@@ -197,11 +179,11 @@ class Debate:
                 agent.load_history(debate_state["agent_states"][agent.name]["conversation_history"])
             logging.info(f"Resumed debate from turn {self.current_turn}")
         else:
-            moderator = next(agent for agent in self.agents if agent.name == "Moderator")
+            moderator = next(agent for agent in self.agents if agent.lead_role is True)
             initial_statement = self.generate_response(moderator)
-            self._log_response("Moderator", initial_statement)
+            self._log_response(moderator.name, initial_statement)
             for agent in self.agents:
-                agent.add_to_history("Moderator", initial_statement)
+                agent.add_to_history(moderator.name, initial_statement)
             logging.info("Started new debate")
 
 
