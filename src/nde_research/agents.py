@@ -7,7 +7,8 @@ class AgentDescription(BaseModel):
     name: str
     role_type: str
     lead_role: bool
-    prompt_template: str
+    system_prompt: str
+    doc_prompt_template: str
 
 
 class Agent:
@@ -15,7 +16,8 @@ class Agent:
         self.name = description.name
         self.role_type = description.role_type
         self.lead_role = description.lead_role
-        self.prompt_template = description.prompt_template
+        self.system_prompt = description.system_prompt
+        self.doc_prompt_template = description.doc_prompt_template
         self.conversation_history = []
 
     def add_to_history(self, speaker, message):
