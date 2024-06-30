@@ -27,7 +27,7 @@ class Conversation:
         self.log_dir = log_dir
         self.conversation_id = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.history_size = history_size
-        self.max_tokens = 1024
+        self.max_tokens = 4096
         self.model = model
         if self.model == "anthropic":
             self.client = anthropic.Anthropic(api_key=api_key)
